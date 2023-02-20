@@ -16,8 +16,9 @@ header {
   display: flex;
   justify-content: space-between;
   /* margin: 0 5em 5em 5em; */
-  background-color: rgb(240, 128, 128, 0.5);
+  background-color: rgb(240, 128, 128, 0.4);
   padding: 1em 5em 2em 5em;
+  border-bottom: 1px solid rgb(220, 20, 60, 0.2);
 }
 ul {
   list-style: none;
@@ -26,7 +27,7 @@ ul {
 }
 nav > ul > li {
   margin: 0 1.2em;
-  font-size: 1.4rem;
+  font-size: 1rem;
 }
 main {
   margin: 1em 5em;
@@ -34,12 +35,24 @@ main {
 .container {
   display: flex;
   justify-content: space-between;
+  margin: 2em 0;
 }
 
 .content {
   justify-content: space-evenly;
+  background-color: rgba(255, 228, 196, 0.55);
+  /* border-radius: 12px; */
+  padding: 2em 0;
+  border: 1px solid var(--black);
 }
-
+.list {
+  background-color: crimson;
+  padding: 0.8em 2em;
+  border: 1px solid var(--black);
+}
+.time {
+  border: 1px solid var(--black);
+}
 button {
   background-color: var(--green);
   padding: 0.5em 2em;
@@ -51,4 +64,8 @@ button {
 }
 button:hover {
   background-color: rgb(43, 184, 64);
+}
+
+.buttons > button {
+  font-size: 1em;
 }
