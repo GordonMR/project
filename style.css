@@ -1,0 +1,38 @@
+:root {
+  --green: rgb(49, 212, 73);
+  --black: rgb(25, 25, 25);
+}
+/* everything */
+* {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  color: var(--black);
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5em 5em 5em;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+}
+nav > ul > li {
+  margin: 0 1.2em;
+  font-size: 1.4rem;
+}
+button {
+  background-color: var(--green);
+  padding: 0.5em 2em;
+  font-size: 1.2rem;
+  border-style: none;
+  border-radius: 12px;
+  color: var(--black);
+}
+button:hover {
+  background-color: rgb(43, 184, 64);
+}
