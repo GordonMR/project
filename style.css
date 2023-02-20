@@ -6,6 +6,7 @@
 * {
   box-sizing: border-box;
   font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
 }
 
 body {
@@ -14,7 +15,9 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  margin: 0 5em 5em 5em;
+  /* margin: 0 5em 5em 5em; */
+  background-color: rgb(240, 128, 128, 0.5);
+  padding: 1em 5em 2em 5em;
 }
 ul {
   list-style: none;
@@ -25,6 +28,18 @@ nav > ul > li {
   margin: 0 1.2em;
   font-size: 1.4rem;
 }
+main {
+  margin: 1em 5em;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content {
+  justify-content: space-evenly;
+}
+
 button {
   background-color: var(--green);
   padding: 0.5em 2em;
@@ -32,6 +47,7 @@ button {
   border-style: none;
   border-radius: 12px;
   color: var(--black);
+  margin: 0 0.2em;
 }
 button:hover {
   background-color: rgb(43, 184, 64);
